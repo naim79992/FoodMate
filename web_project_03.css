@@ -1,0 +1,612 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* home */
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.10), rgba(255, 255, 255, 0.0)), url('bg.jpg');
+    background-position: center;
+    position: relative;
+
+}
+
+nav{
+    display: flex;
+    position: fixed;
+    /* top: 0;
+    left: 0;
+    right: 0; */
+    width: 100%;
+    padding: 0px 0px;
+    z-index: 100;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.navigation{
+    position: relative;
+    display: flex;
+}
+
+.navigation li{
+    list-style: none;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.navigation li a{
+    text-decoration: none;
+    color: #fff;
+    /* font-weight: 300px; */
+    font-size: 25px;
+    font-family: 'Dancing Script' , sans-serif;
+}
+
+.navigation li a:hover{
+    color:#EB3D3D;
+}
+
+nav img{
+    width: 15%;
+    padding: 20px;
+}
+
+nav.sticky{
+    background: rgba(0, 0, 0, 0.733);
+    /* padding: 0px 0px; */
+    /* box-shadow: 0 50px 20px */
+    /* color: rgba(0, 0, 0, 0.5); */
+}
+
+body{
+    min-height: 1000px; 
+    /* Applicable for all */
+}
+
+.text-box{
+    text-align: center;
+    padding: 200px 0px;
+    font-family: 'Dancing Script', sans-serif;
+}
+
+#hungry{
+    font-size: 112px;
+    color: rgb(255, 255, 255);
+}
+
+#for-you{
+    font-size: 112px;
+    color: rgb(255, 255, 255);
+    /* padding-left: 370px; */
+    font-family: 'Dancing Script', sans-serif;
+}
+
+#foodmate{
+    font-size: 150px;
+    /* padding-left: 100px; */
+    /* word-spacing: 5px; */
+    letter-spacing: 3px;
+}
+
+#food{
+    color: #EB3D3D;
+}
+
+#mate{
+    color: #fff;
+}
+
+.button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #EB3D3D;
+    padding: 10px 34px;
+    margin-top: 30px;
+    font-size: 35px;
+    position: relative;
+    cursor: pointer;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+    transition: 0.5s;
+    font-family: 'Dancing Script', sans-serif;
+    /* font-weight: 900; */
+    /* margin-right: none; */
+    /* margin-left: 44%; */
+    border-radius: 5px;
+}
+
+.button:hover{
+    letter-spacing: 8px;
+}
+
+/* About */
+
+.about{
+    padding: 120px 50px;
+    /* margin: auto; */
+    /* width: auto; */
+    background: rgb(43, 42, 42);
+    /* background-image: url('bg5.jpg'); */
+}
+
+.row{
+    /* margin-top: 1%; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+
+.about-col h1{
+    padding-top: 0;
+    font-size: 95px;
+    font-weight: 900;
+    font-family: 'Dancing Script', sans-serif;
+    letter-spacing: 2px;
+}
+
+#A{
+    color: #EB3D3D;
+    font-size: 135px;
+}
+
+#bout_Us{
+    color: white;
+}
+
+.about-col img{
+    width: 100%;
+    position: relative;
+    top: 185px;
+}
+
+.about-col p{
+    color: #fff;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-bottom: 25px;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 2px;
+    line-height: 40px;
+
+}
+
+#last-line {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#some-food{
+    color: #EB3D3D;
+    font-size: 35px;
+}
+
+.some-food1{
+    text-decoration: none;
+}
+
+.about-button{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #EB3D3D;
+    padding: 10px 34px;
+    margin-top: 30px;
+    font-size: 35px;
+    position: relative;
+    cursor: pointer;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+    transition: 0.5s;
+    font-family: 'Dancing Script', sans-serif;
+    font-weight: 900;
+    margin-right: none;
+    /* margin-left: 44%; */
+    border-radius: 5px;
+}
+
+.about-button:hover{
+    letter-spacing: 8px;
+}
+
+/* Menu */
+
+.menu{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 30px;
+    padding-top: 80px;
+    background-color: rgb(43, 42, 42);
+}
+
+.menu h1{
+    color: white;
+    font-size: 95px;
+    /* padding-top: 160px; */
+    /* padding-bottom: 30px; */
+    text-align: center;
+    font-family:'Dancing Script', sans-serif;
+}
+
+#M{
+    color: #EB3D3D;
+}
+
+.menu p{
+    padding-top: 40px;
+    padding-bottom: 100px;
+    font-size: 50px;
+    font-family: 'Dancing Script', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+}
+
+#trending{
+    color: #EB3D3D;
+}
+
+.menu-col{
+    flex-basis: 31%;
+    background-color: rgb(48, 48, 48);
+    margin-bottom: 3%;
+    padding: 20px 12px;
+    padding-bottom: 1.5%;
+    box-sizing: border-box;
+    border-radius: 60px;
+}
+
+.menu-col h3{
+    text-align: center;
+    padding-top: 19px;
+    font-size: 32px;
+    font-family: 'Dancing Script', sans-serif;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.menu-col img{
+    width: 85%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30%;
+}
+
+/* #burger{
+    width: 100%;
+} */
+
+.menu-button {
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #EB3D3D;
+    padding: 20px 34px;
+    margin-top: 10px;
+    font-size: 35px;
+    position: relative;
+    cursor: pointer;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+    transition: 0.5s;
+    font-family: 'Dancing Script', sans-serif;
+    font-weight: 900;
+    margin-right: none;
+    /* margin-left: 44%; */
+    border-radius: 5px;
+}
+
+.menu-button:hover{
+    letter-spacing: 8px;
+}
+
+/* experts */
+
+.expert{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 30px;
+    padding-top: 80px;
+    /* background-color: rgb(43, 42, 42); */
+    background-image: linear-gradient(rgba(71, 69, 69, 0.7), rgba(73, 70, 70, 0.7)), url('bg4.jpg');
+}
+
+.expert h1{
+    color: white;
+    font-size: 95px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family:'Dancing Script', sans-serif;
+}
+
+#kitchen{
+    color: #EB3D3D;
+}
+
+#experts{
+    color: #EB3D3D;
+}
+
+.expert p{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    font-size: 50px;
+    font-family: 'Dancing Script', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+}
+
+.expert-col{
+    flex-basis: 31%;
+    margin-bottom: 3%;
+    padding: 20px 12px;
+    padding-bottom: 1.5%;
+    box-sizing: border-box;
+    border-radius: 60px;
+}
+
+.expert-col h3{
+    text-align: center;
+    padding-top: 19px;
+    font-size: 32px;
+    font-family: 'Dancing Script', sans-serif;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+.expert-col img{
+    width: 80%;
+    border-radius: 20px;
+}
+
+/* testimonial */
+
+.testimonial{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 30px;
+    padding-top: 80px;
+    /* background-color: rgb(43, 42, 42); */
+    background-image: url('bg2.jpg');
+}
+
+.testimonial h1{
+    color: white;
+    font-size: 95px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family:'Dancing Script', sans-serif;
+}
+
+#said{
+    color: #EB3D3D;
+}
+
+.testimonial h3{
+    padding-top: 60px;
+    padding-bottom: 100px;
+    font-size: 50px;
+    font-family: 'Dancing Script', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+}
+
+.testi-col{
+    flex-basis: 28%;
+    border-radius: 15px;
+    margin-bottom: 5%;
+    text-align: center;
+    background: rgb(219, 219, 219);
+    padding: 25px;
+    display: flex;
+}
+
+.testi-col img{
+    height: 80px;
+    margin-left: 0px;
+    border-radius: 50px;
+}
+
+.testi-col p{
+    padding-top: 40px;
+    font-size: 42px;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 1;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-family: 'Dancing Script', sans-serif;
+    padding-bottom: 30px;
+}
+
+.testi-col h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #EB3D3D;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 52px;
+}
+
+.testi-button{
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #EB3D3D;
+    padding: 20px 34px;
+    margin-top: 0px;
+    margin-bottom: 110px;
+    font-size: 35px;
+    position: relative;
+    cursor: pointer;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+    transition: 0.5s;
+    font-family: 'Dancing Script', sans-serif;
+    /* font-weight: 900; */
+    margin-right: none;
+    /* margin-left: 44%; */
+    border-radius: 5px;
+}
+
+.testi-button:hover{
+    letter-spacing: 8px;
+}
+
+.contact{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 30px;
+    padding-top: 180px;
+    /* background-color: rgb(43, 42, 42); */
+    background-image: url('bg3.jpg');
+    /* width: 100%; */
+}
+
+.contact h1{
+    color: rgb(0, 0, 0);
+    font-size: 95px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    text-align: center;
+    font-family:'Dancing Script', sans-serif;
+}
+
+#contact{
+    color: #EB3D3D;
+}
+
+.contact-form{
+    text-align: left;
+    margin-left: 10px;
+    padding-left: 60px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 15px 50px rgba(0,0,0,0.3);
+    max-width: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+.contact-form h3{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    font-size: 42px;
+    font-family: 'Dancing Script' , sans-serif;
+    /* font-weight: bold; */
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.input-box input, .input-box textarea{
+    width: 80%;
+    border: 1px solid #505050;
+    padding: 10px;
+    color: #000000;
+    outline: none;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Dancing Script' , sans-serif;
+    resize: none;
+}
+
+.input-box input[type="submit"]{
+    font-size: 30px;
+    color: white;
+    border: solid #EB3D3D;
+    background: #EB3D3D;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    max-width: 200px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.input-box input[type="submit"]:hover{
+    letter-spacing: 8px;
+}
+
+.footer{
+    padding: 8px 40px;
+    border-top: 1px solid #413f3f;
+    text-align: center;
+    /* background-color: #413f3f; */
+    /* color: #fff; */
+}
+
+.footer p{
+    font-size: 25px;
+    font-family: 'Dancing Script' , sans-serif;
+    word-spacing: 5px;
+    font-weight: 300;
+}
+
+#Food{
+    color: #EB3D3D;
+}
+
+#myspace{
+    color:#000000;
+    font-family: sans-serif;
+}
+
+#m{
+    color:#EB3D3D;
+}
+
+#s{
+    color: orange;
+}
+
+#response{
+    text-align: left;
+    font-size: 62px;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-bottom: 80px;
+    font-weight: bold;
+    font-family: 'Dancing Script' , sans-serif;
+}
+
+#R{
+    color: #EB3D3D;
+}
+
+#submit-count{
+    color: #EB3D3D;
+}
